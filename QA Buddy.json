@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-2Tkau",
+            "id": "ChatInput-qL0By",
             "name": "message",
             "output_types": [
               "Message"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "GroqModel-oekra",
+            "id": "GroqModel-ADJjT",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__ChatInput-2Tkau{œdataTypeœ:œChatInputœ,œidœ:œChatInput-2Tkauœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-GroqModel-oekra{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-oekraœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__ChatInput-qL0By{œdataTypeœ:œChatInputœ,œidœ:œChatInput-qL0Byœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-GroqModel-ADJjT{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-ADJjTœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-2Tkau",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-2Tkauœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "GroqModel-oekra",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-oekraœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-qL0By",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-qL0Byœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "GroqModel-ADJjT",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-ADJjTœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "GroqModel",
-            "id": "GroqModel-oekra",
+            "id": "GroqModel-ADJjT",
             "name": "text_output",
             "output_types": [
               "Message"
@@ -43,7 +43,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-Gxf8i",
+            "id": "ChatOutput-tK3AE",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -52,18 +52,45 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__GroqModel-oekra{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-oekraœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-Gxf8i{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Gxf8iœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__GroqModel-ADJjT{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-ADJjTœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-tK3AE{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-tK3AEœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "GroqModel-oekra",
-        "sourceHandle": "{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-oekraœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-Gxf8i",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Gxf8iœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "GroqModel-ADJjT",
+        "sourceHandle": "{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-ADJjTœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-tK3AE",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-tK3AEœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "ChatInput-2Tkau",
+          "id": "note-SWSGE",
+          "node": {
+            "description": "QA Buddy : This Agent Help you to answer QA related questions.",
+            "display_name": "",
+            "documentation": "",
+            "template": {}
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-SWSGE",
+        "measured": {
+          "height": 324,
+          "width": 324
+        },
+        "position": {
+          "x": -1033.7228799999998,
+          "y": -608.8498559999998
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 324
+      },
+      {
+        "data": {
+          "id": "ChatInput-qL0By",
           "node": {
             "base_classes": [
               "Message"
@@ -342,21 +369,21 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-2Tkau",
+        "id": "ChatInput-qL0By",
         "measured": {
           "height": 48,
           "width": 192
         },
         "position": {
-          "x": 12,
-          "y": 370
+          "x": -840.6188799999998,
+          "y": -252.13881599999976
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "GroqModel-oekra",
+          "id": "GroqModel-ADJjT",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -383,7 +410,7 @@
             ],
             "frozen": false,
             "icon": "Groq",
-            "last_updated": "2026-04-17T16:01:46.429Z",
+            "last_updated": "2026-04-18T01:10:51.063Z",
             "legacy": false,
             "lf_version": "1.7.2",
             "metadata": {
@@ -454,10 +481,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "82b98abe-f5f8-41c2-bd68-e1828e310c5d"
+                "value": "9b35c4c0-5bc0-4596-85d8-fc038533b7e4"
               },
               "_frontend_node_folder_id": {
-                "value": "05df5f79-d1ad-4e89-a105-0c460fae5197"
+                "value": "2c7451bd-342d-497e-ae2e-8a81422538df"
               },
               "_type": "Component",
               "api_key": {
@@ -725,21 +752,21 @@
           "type": "GroqModel"
         },
         "dragging": false,
-        "id": "GroqModel-oekra",
+        "id": "GroqModel-ADJjT",
         "measured": {
           "height": 494,
           "width": 320
         },
         "position": {
-          "x": 380,
-          "y": 148
+          "x": -551.9737599999999,
+          "y": -484.79673599999967
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "ChatOutput-Gxf8i",
+          "id": "ChatOutput-tK3AE",
           "node": {
             "base_classes": [
               "Message"
@@ -1022,58 +1049,30 @@
           "showNode": false,
           "type": "ChatOutput"
         },
-        "dragging": false,
-        "id": "ChatOutput-Gxf8i",
+        "id": "ChatOutput-tK3AE",
         "measured": {
           "height": 48,
           "width": 192
         },
         "position": {
-          "x": 845,
-          "y": 214
+          "x": -75.46048000000003,
+          "y": -244.67385599999977
         },
         "selected": false,
         "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "note-fM9DA",
-          "node": {
-            "description": "QA Assistant Agent\n\n",
-            "display_name": "",
-            "documentation": "",
-            "template": {}
-          },
-          "type": "note"
-        },
-        "dragging": false,
-        "height": 324,
-        "id": "note-fM9DA",
-        "measured": {
-          "height": 324,
-          "width": 324
-        },
-        "position": {
-          "x": -19.373382624768965,
-          "y": -45.72643253234753
-        },
-        "resizing": false,
-        "selected": false,
-        "type": "noteNode",
-        "width": 324
       }
     ],
     "viewport": {
-      "x": 114.09853249475896,
-      "y": 75.21802935010487,
-      "zoom": 0.9451432564640111
+      "x": 875.6517489711935,
+      "y": 507.65787037037023,
+      "zoom": 0.803755144032922
     }
   },
   "description": "This Agent Help you to answer QA related questions.",
   "endpoint_name": null,
-  "id": "82b98abe-f5f8-41c2-bd68-e1828e310c5d",
+  "id": "9b35c4c0-5bc0-4596-85d8-fc038533b7e4",
   "is_component": false,
   "last_tested_version": "1.7.2",
-  "name": "LangFlow QA Buddy",
+  "name": "QA Buddy",
   "tags": []
 }

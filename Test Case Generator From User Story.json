@@ -7,7 +7,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "ChatInput",
-            "id": "ChatInput-2Tkau",
+            "id": "ChatInput-6UsQw",
             "name": "message",
             "output_types": [
               "Message"
@@ -15,19 +15,19 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "GroqModel-oekra",
+            "id": "GroqModel-MuUY2",
             "inputTypes": [
               "Message"
             ],
             "type": "str"
           }
         },
-        "id": "xy-edge__ChatInput-2Tkau{œdataTypeœ:œChatInputœ,œidœ:œChatInput-2Tkauœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-GroqModel-oekra{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-oekraœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "id": "xy-edge__ChatInput-6UsQw{œdataTypeœ:œChatInputœ,œidœ:œChatInput-6UsQwœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-GroqModel-MuUY2{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-MuUY2œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "selected": false,
-        "source": "ChatInput-2Tkau",
-        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-2Tkauœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "GroqModel-oekra",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-oekraœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+        "source": "ChatInput-6UsQw",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-6UsQwœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "GroqModel-MuUY2",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGroqModel-MuUY2œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
       },
       {
         "animated": false,
@@ -35,7 +35,7 @@
         "data": {
           "sourceHandle": {
             "dataType": "GroqModel",
-            "id": "GroqModel-oekra",
+            "id": "GroqModel-MuUY2",
             "name": "text_output",
             "output_types": [
               "Message"
@@ -43,7 +43,7 @@
           },
           "targetHandle": {
             "fieldName": "input_value",
-            "id": "ChatOutput-Gxf8i",
+            "id": "ChatOutput-dQut3",
             "inputTypes": [
               "Data",
               "DataFrame",
@@ -52,18 +52,18 @@
             "type": "other"
           }
         },
-        "id": "xy-edge__GroqModel-oekra{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-oekraœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-Gxf8i{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Gxf8iœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "id": "xy-edge__GroqModel-MuUY2{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-MuUY2œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-dQut3{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-dQut3œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
         "selected": false,
-        "source": "GroqModel-oekra",
-        "sourceHandle": "{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-oekraœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "ChatOutput-Gxf8i",
-        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Gxf8iœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+        "source": "GroqModel-MuUY2",
+        "sourceHandle": "{œdataTypeœ:œGroqModelœ,œidœ:œGroqModel-MuUY2œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-dQut3",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-dQut3œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       }
     ],
     "nodes": [
       {
         "data": {
-          "id": "ChatInput-2Tkau",
+          "id": "ChatInput-6UsQw",
           "node": {
             "base_classes": [
               "Message"
@@ -342,21 +342,48 @@
           "type": "ChatInput"
         },
         "dragging": false,
-        "id": "ChatInput-2Tkau",
+        "id": "ChatInput-6UsQw",
         "measured": {
           "height": 48,
           "width": 192
         },
         "position": {
-          "x": 12,
-          "y": 370
+          "x": 219,
+          "y": 419
         },
         "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "GroqModel-oekra",
+          "id": "note-Sytf8",
+          "node": {
+            "description": "Test Case Generator from User Stories : \n\nA flow that takes a user story (from Jira, a document, or typed in) and generates comprehensive test cases in structured format — covering happy path, negative, edge, and boundary scenarios.\n\nQA Analogy: This automates what a QA engineer does during sprint planning — reading stories and writing test cases. The agent IS the test case writer.",
+            "display_name": "",
+            "documentation": "",
+            "template": {}
+          },
+          "type": "note"
+        },
+        "dragging": false,
+        "height": 324,
+        "id": "note-Sytf8",
+        "measured": {
+          "height": 324,
+          "width": 324
+        },
+        "position": {
+          "x": 27,
+          "y": 38
+        },
+        "resizing": false,
+        "selected": false,
+        "type": "noteNode",
+        "width": 324
+      },
+      {
+        "data": {
+          "id": "GroqModel-MuUY2",
           "node": {
             "base_classes": [
               "LanguageModel",
@@ -383,7 +410,7 @@
             ],
             "frozen": false,
             "icon": "Groq",
-            "last_updated": "2026-04-17T16:01:46.429Z",
+            "last_updated": "2026-04-28T10:27:32.914Z",
             "legacy": false,
             "lf_version": "1.7.2",
             "metadata": {
@@ -454,10 +481,10 @@
             "pinned": false,
             "template": {
               "_frontend_node_flow_id": {
-                "value": "82b98abe-f5f8-41c2-bd68-e1828e310c5d"
+                "value": "166107ad-442b-4159-a371-3c6992b35ec5"
               },
               "_frontend_node_folder_id": {
-                "value": "05df5f79-d1ad-4e89-a105-0c460fae5197"
+                "value": "2c7451bd-342d-497e-ae2e-8a81422538df"
               },
               "_type": "Component",
               "api_key": {
@@ -664,7 +691,7 @@
                 "trace_as_metadata": true,
                 "track_in_telemetry": false,
                 "type": "str",
-                "value": "You are QA specialist having 15+ yrs of experience answer question only related to QA"
+                "value": "You are a Senior QA Engineer with 15+ years of hands-on experience in Functional, Integration, Regression, Edge Case, and System Testing across web, mobile, and API platforms.\n\nYour SOLE job is to generate atomic, traceable, Jira-importable test cases — strictly from documented sources — and write them into the TestCase_abbcreation tool, which is a Google Sheet. You do NOT invent, assume, or hallucinate requirements.\n\n\nSTEP 1 — SOURCE EXTRACTION (Mandatory)\n\nRead and extract ONLY documented facts from these authoritative sources:\n\nJira Ticket — Retrieve using the provided Jira ID.\n\nExtract ONLY the following, if explicitly documented:\n\nFeature description and scope\nAcceptance criteria (AC)\nBusiness rules and logic\nField-level validations and constraints\nTechnical dependencies and integrations\nExplicitly stated edge cases\nUI/UX specifications\nError messages and handling behavior\nHard Rules:\nDo NOT assume missing requirements.\nDo NOT create hypothetical user flows.\nDo NOT infer edge cases unless explicitly documented.\nDo NOT add test cases for features not mentioned in sources.\n\nIf required information is missing, record a gap entry before writing test cases:\n\nGap Type: Insufficient Information\nGap Description: Clearly state what scenario cannot be validated and what clarification is needed from PO/BA.\n\n\n\nSTEP 2 — TEST CASE DESIGN RULES\n\nDesign test cases strictly based on extracted content. Cover these categories ONLY if documented:\n\nCategory\tInclude When\nPositive Scenarios\tHappy path flows are described in AC\nNegative Scenarios\tError handling or invalid inputs are specified\nBoundary Value\tMin/max limits, character lengths, or ranges are defined\nField Validation\tRequired fields, formats, types are specified\nError Handling\tError messages or failure behaviors are documented\nIntegration\tCross-system or API dependencies are mentioned\nSecurity\tAuth, access control, or data protection rules exist\nPerformance\tLoad/response time criteria are stated\nEach Test Case MUST:\nBe atomic — validate exactly ONE behavior\nBe traceable — map to a specific Jira AC or business rule\nHave measurable expected results — verifiable pass/fail criteria\nUse precise QA language — no ambiguity\nInclude concrete test data — not placeholders like “valid input”\nSpecify clear preconditions — system state before execution\n\n\n\nSTEP 3 — OUTPUT DESTINATION (Strict Tool Usage)\n\nDo NOT return the final test cases as a markdown table in chat.\n\nYou MUST write the output into the TestCase_abbcreation tool only.\n\nFor each atomic test case, add one row in the Google Sheet with these exact columns:\n\nTest Case ID — Unique ID following pattern: TC_<MODULE>_<NNN>\nJira ID — Linked Jira ticket ID\nModule/Feature — Feature or module under test\nTest Case Title — Concise, action-oriented title starting with “Verify...”\nPreconditions — System state required before test execution\nTest Steps — Numbered steps (1. 2. 3.), sequential and reproducible\nTest Data — Specific, concrete test data values used in steps\nExpected Result — Observable, measurable outcome\nPriority — Critical / High / Medium / Low\nTest Type — Functional / Negative / Boundary / Integration / Security / Performance\nSheet Writing Rules:\nOne row = one atomic test case.\nNever combine multiple behaviors into one row.\nTest Steps must remain numbered within the same cell.\nExpected Result must be specific and verifiable.\nTest Data must contain actual values, not descriptions.\nUse this priority logic:\nCritical: Blocks core functionality or causes data loss\nHigh: Major feature flow or AC item\nMedium: Secondary validations or formatting\nLow: UI polish or cosmetic checks\n\n\n\nSTEP 4 — GAP HANDLING\n\nIf gaps exist, do NOT invent coverage.\n\nInstead:\n\nAdd a separate gap row into the sheet if the sheet supports gap tracking, or\nReturn a concise summary stating the gaps that prevented testcase generation for specific scenarios.\n\nGap wording format:\n\nGap Type: Insufficient Information / Ambiguous AC / Unmapped AC\nGap Description: [Specific missing info and recommendation]\n\nIf an AC is ambiguous:\n\nFlag it as a gap\nGenerate a testcase only if the documented behavior is still testable\nIn such cases, keep the expected result strictly tied to documented wording only\n\n\nSTEP 5 — COMPLETENESS CHECK\n\nBefore finishing:\n\nVerify every documented AC has at least one test case mapped to it.\nIdentify any unmapped ACs.\nDo not create duplicate coverage for the same behavior.\nWrite only validated, source-backed rows into TestCase_abbcreation.\n\n\n\nFINAL RESPONSE RULE\n\nAfter successfully writing to the TestCase_abbcreation tool:\n\nReturn only a short confirmation summary in chat.\nDo NOT print the full table in chat.\nInclude:\nJira ID processed\nNumber of test cases written\nNumber of gaps identified, if any\n\nExample final response:\n\nJira ID: KEN-7\nTest cases written to TestCase_abbcreation:  5\nGaps identified: 2\n\n\n\nGUARDRAILS (Non-Negotiable)\nZero Hallucination Policy: Every test case must trace to a documented requirement. If it is not documented, do not include it.\nNo Requirement Creation: Do not write requirements disguised as test cases.\nAmbiguity Flagging: If an AC is ambiguous, flag it as a gap.\nCompleteness Check: Ensure every documented AC is covered or explicitly flagged as unmapped.\nNo Duplicate Coverage: Each behavior should be tested exactly once.\nTool-First Output: The authoritative output is the TestCase_abbcreation Google Sheet, not the chat response.\n"
               },
               "temperature": {
                 "_input_type": "SliderInput",
@@ -725,21 +752,21 @@
           "type": "GroqModel"
         },
         "dragging": false,
-        "id": "GroqModel-oekra",
+        "id": "GroqModel-MuUY2",
         "measured": {
           "height": 494,
           "width": 320
         },
         "position": {
-          "x": 380,
-          "y": 148
+          "x": 480,
+          "y": 75
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       },
       {
         "data": {
-          "id": "ChatOutput-Gxf8i",
+          "id": "ChatOutput-dQut3",
           "node": {
             "base_classes": [
               "Message"
@@ -1022,58 +1049,30 @@
           "showNode": false,
           "type": "ChatOutput"
         },
-        "dragging": false,
-        "id": "ChatOutput-Gxf8i",
+        "id": "ChatOutput-dQut3",
         "measured": {
           "height": 48,
           "width": 192
         },
         "position": {
-          "x": 845,
-          "y": 214
+          "x": 868,
+          "y": 296
         },
         "selected": false,
         "type": "genericNode"
-      },
-      {
-        "data": {
-          "id": "note-fM9DA",
-          "node": {
-            "description": "QA Assistant Agent\n\n",
-            "display_name": "",
-            "documentation": "",
-            "template": {}
-          },
-          "type": "note"
-        },
-        "dragging": false,
-        "height": 324,
-        "id": "note-fM9DA",
-        "measured": {
-          "height": 324,
-          "width": 324
-        },
-        "position": {
-          "x": -19.373382624768965,
-          "y": -45.72643253234753
-        },
-        "resizing": false,
-        "selected": false,
-        "type": "noteNode",
-        "width": 324
       }
     ],
     "viewport": {
-      "x": 114.09853249475896,
-      "y": 75.21802935010487,
-      "zoom": 0.9451432564640111
+      "x": 25.719264278799642,
+      "y": 20.603581800580855,
+      "zoom": 1.047434656340755
     }
   },
-  "description": "This Agent Help you to answer QA related questions.",
+  "description": "Unfolding Linguistic Possibilities.",
   "endpoint_name": null,
-  "id": "82b98abe-f5f8-41c2-bd68-e1828e310c5d",
+  "id": "166107ad-442b-4159-a371-3c6992b35ec5",
   "is_component": false,
   "last_tested_version": "1.7.2",
-  "name": "LangFlow QA Buddy",
+  "name": "Test Case Generator From User Story",
   "tags": []
 }
